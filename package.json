@@ -1,0 +1,18 @@
+{
+  "name": "helmholtz-violin",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "基于弓弦粘-滑摩擦与赫姆霍兹运动的小提琴学习游戏",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:physics": "node scripts/run-physics-tests.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.1",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.3"
+  }
+}
